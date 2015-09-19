@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FakeHostManagement", "FakeHostManagement\FakeHostManagement.fsproj", "{D3D418D8-9CE3-42BE-A9FF-5EC5A6A84ECF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3D418D8-9CE3-42BE-A9FF-5EC5A6A84ECF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3D418D8-9CE3-42BE-A9FF-5EC5A6A84ECF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3D418D8-9CE3-42BE-A9FF-5EC5A6A84ECF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3D418D8-9CE3-42BE-A9FF-5EC5A6A84ECF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
