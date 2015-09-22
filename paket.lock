@@ -1,0 +1,19 @@
+NUGET
+  remote: https://nuget.org/api/v2
+  specs:
+    FsCheck (2.0.7)
+      FSharp.Core (>= 3.1.2.5)
+    FsCheck.Xunit (2.0.7)
+      FsCheck (>= 2.0.7)
+      xunit (>= 1.9.2)
+    FSharp.Core (4.0.0.1)
+    xunit (2.0.0)
+      xunit.assert (2.0.0)
+      xunit.core (2.0.0)
+    xunit.abstractions (2.0.0)
+    xunit.assert (2.0.0)
+    xunit.core (2.0.0)
+      xunit.extensibility.core (2.0.0)
+    xunit.extensibility.core (2.0.0)
+      xunit.abstractions (2.0.0)
+    xunit.runner.visualstudio (2.0.1) - framework: >= net452
