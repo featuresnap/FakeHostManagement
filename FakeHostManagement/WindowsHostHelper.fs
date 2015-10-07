@@ -3,10 +3,14 @@
     open System.IO
     open System
     open System.Text
+    open System.Text.RegularExpressions
 
     type HostName = |Host of string
 
-    let private doesNotContain (Host(testArg))  = function |(value:string) -> value.Contains(testArg) |> not
+    let doesNotContain (Host(testArg))  = function 
+        |(value:string) -> 
+            Regex.IsMatch(value, sprintf "\\b%s\\b" testArg)
+            |> not
 
     let private (</>) a b = Path.Combine(a,b)
 
